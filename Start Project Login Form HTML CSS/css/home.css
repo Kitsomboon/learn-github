@@ -1,0 +1,156 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    display: flex;
+    min-height: 270px;
+    width: 100%;
+    font-weight: 400;
+    padding: 16px 0 80px;
+  }
+  @media (max-width: 991px) {
+    .div {
+      max-width: 100%;
+    }
+  }
+  .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-2 {
+    position: relative;
+    align-self: start;
+    display: flex;
+    margin-left: 107px;
+    gap: 0px;
+    color: var(--Primary, #fff);
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      margin-left: 10px;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 1.33;
+    object-fit: auto;
+    object-position: center;
+    width: 80px;
+  }
+  .div-3 {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+  }
+  .div-4 {
+    font: 25px Kanit, sans-serif;
+  }
+  .div-5 {
+    margin-top: 18px;
+    font: 20px Kanit, sans-serif;
+  }
+  .div-6 {
+    position: relative;
+    background-color: var(--color-1, #c90);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    justify-content: space-between;
+    margin: 14px 0 10px;
+    padding: 18px 20px 18px 80px;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-left: 20px;
+      white-space: initial;
+    }
+  }
+  .img-3 {
+    aspect-ratio: 7.14;
+    object-fit: auto;
+    object-position: center;
+    width: 380px;
+    align-self: stretch;
+  }
+  .div-7 {
+    align-self: stretch;
+    display: flex;
+    gap: 20px;
+    font-size: 23px;
+    color: var(--Primary, #fff);
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      white-space: initial;
+    }
+  }
+  .div-8 {
+    font-family: Kanit, sans-serif;
+    margin: auto 0;
+  }
+  .div-9 {
+    font-family: Kanit, sans-serif;
+  }
+  .div-10 {
+    font-family: Kanit, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-11 {
+    display: flex;
+    flex-direction: column;
+    font-family: Kanit, sans-serif;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 2.55;
+    justify-content: center;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      white-space: initial;
+    }
+  }
+  .div-12 {
+    position: relative;
+  }
+  .div-13 {
+    background-color: rgba(255, 255, 255, 1);
+    align-self: stretch;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #000;
+    margin: auto 0;
+    padding: 15px 6px 15px 22px;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      padding-left: 20px;
+      white-space: initial;
+    }
+  }
+  .div-14 {
+    font-family: Kanit, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .img-4 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 15px;
+    align-self: start;
+  }
